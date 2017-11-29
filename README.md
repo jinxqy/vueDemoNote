@@ -1,6 +1,9 @@
-1.安装node环境，(c)npm。
-2.安装vuecli:
+### 1.安装node环境，(c)npm。
+
+### 2.安装vuecli:
+
 `cnpm install -g vue-cli`
+
 3.命令行切换到clone下来对应的盘符，初始化一个项目：
 `vue init webpack Vue-Project`
 其中，会弹出一些操作：
