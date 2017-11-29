@@ -9,8 +9,8 @@
 `vue init webpack Vue-Project`
 
 其中，会弹出一些操作提示：
-Project name:vueProject   (项目名称)
-Project description: firsrProject (项目描述)
+<br>Project name:vueProject   (项目名称)
+<br>Project description: firsrProject (项目描述)
 等等...
 
 其中本人建议把Use EsLint To Your Code?设置为No(不使用ESLint代码规范，过于严格了，谁用谁头疼)。
@@ -100,7 +100,7 @@ js代码：
 v-bind\：  :
   v-bind可用来绑定属性，如：data(){}.strClass = "font-red" 则：`<p v-bind:class="strClass" class="yellow"></p>`这样渲染出来，class会同时存在font-red和yellow两个class。
 如果strClass是一个对象，如：data(){}.strClass = { 'font-red': true, 'font-blue': false }，则只会绑定为true的属性，即：font-red。
-
+ 
 v-if、v-else 、v-show:
 控制标签是否显示。
 data(){}.show1 = true；data(){}.show2 = true；
