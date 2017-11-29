@@ -5,15 +5,20 @@
 `cnpm install -g vue-cli`
 
 3.命令行切换到clone下来对应的盘符，初始化一个项目：
+
 `vue init webpack Vue-Project`
-其中，会弹出一些操作：
+
+其中，会弹出一些操作提示：
 Project name:vueProject   (项目名称)
 Project description: firsrProject (项目描述)
 等等...
+
 其中本人建议把Use EsLint To Your Code?设置为No(不使用ESLint代码规范，过于严格了，谁用谁头疼)。
 `cd Vue-Project `
+
 启动Vue：
 `npm run dev`
+
 如果浏览器打开之后，没有加载出页面，有可能是本地的 8080 端口被占用，需要修改一下配置文件 config>index.js 将dev下的port属性改成其他的即可。
 
 运行
