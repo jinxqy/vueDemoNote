@@ -101,7 +101,7 @@ v-bind\：  :
   v-bind可用来绑定属性，如：data(){}.strClass = "font-red" 则：`<p v-bind:class="strClass" class="yellow"></p>`这样渲染出来，class会同时存在font-red和yellow两个class。
 如果strClass是一个对象，如：data(){}.strClass = { 'font-red': true, 'font-blue': false }，则只会绑定为true的属性，即：font-red。
  
-v-if、v-else 、v-show:
+v-if、v-else 、v-show: 
 控制标签是否显示。
 data(){}.show1 = true；data(){}.show2 = true；
 <span v-if="show1">111</span><span v-else="paramA">222</span>
