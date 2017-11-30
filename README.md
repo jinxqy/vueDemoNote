@@ -87,9 +87,9 @@ data和template通过这样的一个方式，我们就可以完成最基本的�
 
 绑定序号： 
 <br>`<p v-for="(item,index) in  list">{{index }} + {{ item.name }}  + {{item.price}}</p>` 
-注：2.0之前可以直接绑定index。
-同样，也可以渲染对象:
-objPerson：{
+<br>注：2.0之前可以直接绑定index。
+<br>同样，也可以渲染对象:
+<br>objPerson：{
    name: jinxqy
    age: 18
 }
@@ -233,7 +233,7 @@ v-show=false是通过设置该元素的display:none；来控制元素的显示�
      
      <br>`getParam（paramformA）{`
      
-    <br>`  console.log("from paramA is" + paramformA);
+    <br>`  console.log("from paramA is" + paramformA);`
  
     <br>`}`
     
