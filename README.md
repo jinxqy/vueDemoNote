@@ -63,7 +63,7 @@ data和template通过这样的一个方式，我们就可以完成最基本的�
 <br>`<div v-html="hello"></div>`  
 
 <br>`<div v-text="hello"></div>` 
-若hello变量等于一段html标签：<p>hello</p> 那么，v-html在页面会渲染成<p>hello</p>；v-text则是hello。
+若hello变量等于一段html标签：`<p>hello</p>` 那么，v-html在页面会渲染成`<p>hello</p>`；v-text则是hello。
 同时，小胡子形式也可以通过一些表达式的形式渲染，诸如：
 
 {{ statue ? "true" ： "false" }}、{{ num + 1 }}等。
